@@ -1,3 +1,6 @@
+*output/
+*scripts/
+
 *.pt
 *.pth
 output*

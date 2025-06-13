@@ -15,13 +15,13 @@ if __name__ == '__main__':
     # Install 3D Gaussian Splatting rasterizer
     print("[INFO] Installing the 3D Gaussian Splatting rasterizer...")
     os.chdir("gaussian_splatting/submodules/diff-gaussian-rasterization/")
-    os.system("conda run -n sugar pip install -e .")
+    os.system("conda run -n sugar pip install .")
     print("[INFO] 3D Gaussian Splatting rasterizer installed.")
     
     # Install simple-knn
     print("[INFO] Installing simple-knn...")
     os.chdir("../simple-knn/")
-    os.system("conda run -n sugar pip install -e .")
+    os.system("conda run -n sugar pip install .")
     print("[INFO] simple-knn installed.")
     os.chdir("../../../")
     
